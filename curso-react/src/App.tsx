@@ -42,24 +42,17 @@ function App() {
             <Grid item xs={12}>
               <TextField
                 id="outlined-basic"
-                label="Nombre"
+                label="Usuario"
                 variant="outlined"
               />
             </Grid>
 
             <Grid item xs={12}>
               <TextField
-                id="outlined-basic"
-                label="Apellido"
-                variant="outlined"
-              />
-            </Grid>
-
-            <Grid item xs={12}>
-              <TextField
-                id="outlined-basic"
-                label="Correo"
-                variant="outlined"
+                id="outlined-password-input"
+                label="Password"
+                type="password"
+                autoComplete="current-password"
               />
             </Grid>
 
